@@ -28,7 +28,7 @@ import static ru.startandroid.refereeing.R.drawable.rect_red;
 
 public class QuarterfinalSw extends AppCompatActivity {
 
-    int test = 123;
+    Integer test = 123;
 
 
     HashSet<String> set = new HashSet<String>();
