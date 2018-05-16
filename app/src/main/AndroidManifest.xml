@@ -17,9 +17,9 @@
         </activity>
         <activity android:name=".activity.CategoryListActivity"></activity>
         <activity android:name=".activity.JudgesActivity"></activity>
-        <activity android:name=".activity.QuarterfinalSw"></activity>
-        <activity android:name=".activity.QuarterfinalTg"></activity>
-        <activity android:name=".activity.QuarterfinalQw"></activity>
+        <activity android:name=".activity.dance.QuarterfinalSw"></activity>
+        <activity android:name=".activity.dance.QuarterfinalTg"></activity>
+        <activity android:name=".activity.dance.QuarterfinalQw"></activity>
     </application>
 
 </manifest>

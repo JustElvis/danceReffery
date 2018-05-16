@@ -1,15 +1,10 @@
-package ru.startandroid.refereeing.activity;
+package ru.startandroid.refereeing.activity.dance;
 
-import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -19,7 +14,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.HashSet;
-import java.util.Set;
 
 import ru.startandroid.refereeing.R;
 import ru.startandroid.refereeing.couple.DBcouples;
@@ -33,6 +27,8 @@ import static ru.startandroid.refereeing.R.drawable.rect_red;
  */
 
 public class QuarterfinalSw extends AppCompatActivity {
+
+    String test = "test pulling";
 
 
     HashSet<String> set = new HashSet<String>();

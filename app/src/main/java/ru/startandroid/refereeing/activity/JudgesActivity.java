@@ -6,9 +6,9 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 import ru.startandroid.refereeing.R;
+import ru.startandroid.refereeing.activity.dance.QuarterfinalSw;
 
 
 /**
