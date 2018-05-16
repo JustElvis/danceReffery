@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Refereeing</string>
+    <string name="button_program">Програма змагань</string>
+    <string name="button_adjudicate">Судити</string>
+</resources>
