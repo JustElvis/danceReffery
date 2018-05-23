@@ -8,9 +8,11 @@ import android.widget.Button;
 
 import ru.startandroid.refereeing.activity.CategoryListActivity;
 import ru.startandroid.refereeing.activity.JudgesActivity;
+import ru.startandroid.refereeing.activity.RegistrationFieldActivity;
 
 import static ru.startandroid.refereeing.R.id.btnAdjudicate;
 import static ru.startandroid.refereeing.R.id.btnProgram;
+import static ru.startandroid.refereeing.R.id.btnRegistrationField;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,8 +31,12 @@ public class MainActivity extends AppCompatActivity {
             case btnAdjudicate:
                 intent = new Intent(this, JudgesActivity.class);
                 startActivity(intent);
+            case btnRegistrationField:
+                intent = new Intent(this, RegistrationFieldActivity.class);
+                startActivity(intent);
             default:
                 break;
+
         }
     }
 }

@@ -15,11 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.CategoryListActivity"></activity>
-        <activity android:name=".activity.JudgesActivity"></activity>
-        <activity android:name=".activity.dance.QuarterfinalSw"></activity>
-        <activity android:name=".activity.dance.QuarterfinalTg"></activity>
-        <activity android:name=".activity.dance.QuarterfinalQw"></activity>
+        <activity android:name=".activity.CategoryListActivity" />
+        <activity android:name=".activity.JudgesActivity" />
+        <activity android:name=".activity.dance.QuarterfinalSw" />
+        <activity android:name=".activity.dance.QuarterfinalTg" />
+        <activity android:name=".activity.dance.QuarterfinalQw" />
+        <activity android:name=".activity.RegistrationFieldActivity"></activity>
     </application>
 
 </manifest>

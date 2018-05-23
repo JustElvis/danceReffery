@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.startandroid.refereeing.activity.RegistrationFieldActivity">
+    <TextView
+        android:layout_margin="5dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="ПОЛЕ РЕЄСТРАЦІЇ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Введіть ім’я танцюриста"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="Партнер"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:id="@+id/firstPartnerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Введіть ім’я танцюриста"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="Партнерка"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:id="@+id/secondPartnerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Оберіть категорію та клас"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:layout_weight="1"
+                android:id="@+id/spinnerCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog"></Spinner>
+            <Spinner
+                android:spinnerMode="dialog"
+                android:layout_weight="1"
+                android:id="@+id/spinnerClass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+        </LinearLayout>
+        <TextView
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="Оберіть програму"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:layout_weight="1"
+                android:id="@+id/checkboxStandart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ST"
+                android:onClick="onCheckboxClicked"/>
+            <CheckBox
+                android:text="LA"
+                android:layout_weight="1"
+                android:id="@+id/checkboxLatin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"/>
+        </LinearLayout>
+        <Button
+            android:textSize="20sp"
+            android:text="Створити пару"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>
